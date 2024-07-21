@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer Funds</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="main3">
+        <div class="container3">
+            <h1>Transfer Funds</h1>
+            <form action="#">
+                <label for="form-account">From Account: </label>
+                <select name="form-account" id="form-account" required>
+                    <option value="123456789">Savings Account</option>
+                    <option value="987654321">Digital-Savings Account</option>
+                    <option value="567894312">current Account</option>
+                </select>
+
+                <label for="to-account">To Account: </label>
+                <input type="text" name="to-account" id="to-account" placeholder="Enter Account Number" required>
+                <label for="amount">Amount:</label>
+                <input type="number" name="amount" id="amount" required>
+
+                <label for="remarks">Remarks/Notes:</label>
+                <textarea name="remarks" id="remarks" rows="4" placeholder="Optional"></textarea>
+
+                <button type="submit">Transfer</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer">
+                <p>&copy;2024 Online Banking System. All rights reserved.</p>
+                <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a></p>
+                <div class="social-media">
+                    <a href="#"><img src="Photos/facebook2.png" alt="Facebook"></a>
+                    <a href="#"><img src="Photos/twitter2.png" alt="Twitter"></a>
+                    <a href="#"><img src="Photos/linkedin2.png" alt="Linkedin"></a>
+                </div>
+        </div>
+</body>
+</html>

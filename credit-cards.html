@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit-Cards</title>
+    <link rel="stylesheet" href="services.css">
+</head>
+<body>
+
+    <div class="main2">
+        <div class="container">
+            <form action="#">
+                <h1>Credit Cards Application</h1>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full-name" required>
+
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="male">Male</option>
+                        <option value="famale">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label for="address">Adress:</label>
+                    <input type="text" id="street" name="street" placeholder="Street" required>
+                    <input type="text" id="city" name="city" placeholder="City" required>
+                    <input type="text" id="state" name="state" placeholder="State" required>
+                    <input type="text" id="pin" name="pin" placeholder="PIN" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Financial Information</legend>
+                    <label for="income">Monthly Income:</label>
+                    <input type="number" id="income" name="income" required>
+
+                    <label for="employmentStatus">Employment Status:</label>
+                    <select id="employmentStatus" name="employmentStatus" required>
+                        <option value="self-employed">Self-Employed</option>
+                        <option value="unemployed">Unemployed</option>
+                    </select>
+
+                    <label for="credit-cards">Exiting Credit Cards:</label>
+                    <select id="credit-cards" name="credit-cards" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+
+                    <label for="credit-score">Credit Score:</label>
+                    <input type="text" id="credit-score" name="credit-score" required>
+
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Card Preference</legend>
+                    <label for="card-type">Type of Card:</label>
+                    <select id="card-type" name="card-type" required>
+                        <option value="rewards">Rewards</option>
+                        <option value="cashback">Cashback</option>
+                        <option value="travel">Travel</option>
+                    </select>
+                </fieldset>
+
+
+
+                <fieldset>
+                    <legend>Terms and Conditions</legend>
+                    <label for="agree-terms">
+                        <input type="checkbox" name="agree-terms" id="agree-terms" required>I agree to the <a href="#">Terms And Conditions</a>
+                    </label>
+                </fieldset>
+
+                <button type="submit">Submit Application</button>
+
+            </form>
+        </div>
+    </div>
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer">
+                <p>&copy;2024 Online Banking System. All rights reserved.</p>
+                <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a></p>
+                <div class="social-media">
+                    <a href="#"><img src="Photos/facebook2.png" alt="Facebook"></a>
+                    <a href="#"><img src="Photos/twitter2.png" alt="Twitter"></a>
+                    <a href="#"><img src="Photos/linkedin2.png" alt="Linkedin"></a>
+                </div>
+        </div>
+</body>
+</html>

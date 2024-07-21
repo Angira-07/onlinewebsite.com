@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Information</title>
+</head>
+<link rel="stylesheet" href="log-in-sign-up.css">
+<body>
+    <div class="main">
+        <div class="signup-container">
+            <h1>Create an Account</h1>
+            <form action="Signup" method="post">
+                <div class="form-group">
+                    <select id="account-type" name="account-type" required>
+                        <option value="account-type">Account Type</option>
+                        <option value="savings">Savings Account</option>
+                        <option value="digital-savings">Digital Savings Account</option>
+                        <option value="current">Current Account</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <!-- <label for="username">Username</label> -->
+                    <input type="text" id="account-num" name="account-num" placeholder="Account Number">
+                </div>
+                <div class="form-group">
+                    <select name="branchs" id="branchs" required>
+                        <option value="branch">Branch</option>
+                        <option value="panagarh">Panagarh</option>
+                        <option value="durgapur">Durgapur</option>
+                        <option value="raniganj">Raniganj</option>
+                        <option value="asansol">Asansol</option>
+                        <option value="suri">Suri</option>
+                        <option value="bardhaman">Bardhaman</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <!-- <label for="username">Username</label> -->
+                    <input type="text" id="username" name="username" placeholder="Username">
+                </div>
+                <div class="form-group">
+                    <!-- <label for="password">Password</label> -->
+                    <input type="password" id="password" name="password" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <!-- <label for="password">Password</label> -->
+                    <input type="password" id="password" name="password" placeholder="Confirm Password">
+                </div>
+                <div class="form-group">
+                    <button type="submit">Sign Up</button>
+                </div>
+                <div class="form-group">
+                    <p>Already have an account?<a href="log-in.html">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer">
+                <p>&copy;2024 Online Banking System. All rights reserved.</p>
+                <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a></p>
+                <div class="social-media">
+                    <a href="#"><img src="Photos/facebook2.png" alt="Facebook"></a>
+                    <a href="#"><img src="Photos/twitter2.png" alt="Twitter"></a>
+                    <a href="#"><img src="Photos/linkedin2.png" alt="Linkedin"></a>
+                </div>
+        </div>
+    </footer>
+</body>
+</html>
